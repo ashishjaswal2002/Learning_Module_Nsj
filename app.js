@@ -17,9 +17,15 @@ fs.writeFile(path.join(__dirname,'files','lorem2.txt'),'Hi My name is Sadie Pink
 })
 //This function is used to update files.....
 
-fs.appendFile(path.join(__dirname,'files','lorem3.txt'),'Testing Text',(err)=>{
+fs.appendFile(path.join(__dirname,'files','lorem2.txt'),'\n\nYes it is',(err)=>{
     if(err)throw err;
     console.log('Append Complete');
+
+
+    fs.rename(path.join(__dirname,'files','lorem2.txt'),path.join(__dirname,'files','newLorem.txt'),(err)=>{
+        if(err)throw err;
+        console.log('rename Complete');
+    })
 })
 
 
