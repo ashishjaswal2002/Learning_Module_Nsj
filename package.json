@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "03tut",
   "version": "1.0.0",
   "description": "Simple test app",
   "main": "app.js",
@@ -7,5 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ashish Jaswal",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishjaswal2002/Learning_Module_Nsj.git"
+  },
+  "keywords": [
+    "repoo"
+  ],
+  "bugs": {
+    "url": "https://github.com/ashishjaswal2002/Learning_Module_Nsj/issues"
+  },
+  "homepage": "https://github.com/ashishjaswal2002/Learning_Module_Nsj#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "superheroes": "^3.0.0"
+  }
 }
