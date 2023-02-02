@@ -21,6 +21,7 @@
   "homepage": "https://github.com/ashishjaswal2002/Learning_Module_Nsj#readme",
   "dependencies": {
     "date-fns": "^2.29.3",
+    "express": "^4.18.2",
     "superheroes": "^3.0.0"
   }
 }
